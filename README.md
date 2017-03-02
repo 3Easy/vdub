@@ -2,7 +2,7 @@
 
 Inspired by Craig Sharkie’s [vw + vh === vnice](http://webdirections.org/respond16/speakers/craig-sharkie.html) talk at Respond16, in turn inspired by Mike Riethmuller’s blog post circa 2015 entitled [Precise Control Responsive Typography](http://madebymike.com.au/writing/precise-control-responsive-typography/), here’s my shot at a viewport scalable type mixin `@mixin vdub`.
 
-In a nutshell, this will give you fluid typography that scales depending on the size of the viewport. In detail, your base type sizes will scale fluidly from 12px to 24px between viewport sizes of 400px and 1200px. Plus you can supply your own arguments and override those values.
+In a nut, this gives you fluid typography that scales on the size of the viewport. In detail, your base type sizes will scale between 12px and 24px, between a 400px and 1200px viewport. Optionally supply your own arguments to override those values.
 
 ## Requirements
 
