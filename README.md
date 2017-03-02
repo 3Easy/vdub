@@ -21,9 +21,25 @@ Install VDub with [Bower](http://bower.io).
   ```scss
   @import "vdub/vdub";
   ```
+  
+- Include the mixin…
+
+	```scss
+	@include vdub();
+	```
+
+- Optionally, include four arguments…
+
+	```scss
+	@include vdub(16, 32, 640, 1280);
+	```
+
+## The Mixin
+
+The mixin optionally accepts four arguments `min_font`, `max_font`, `min_width`, and `max_width`. Sensible fallback values are built in, 12, 24, 400, and 1200. The order of arguments presumes you want to change font sizes first, and screen widths later.
 
 ## License
 
 Copyright © 2017– [3Easy & Co.](http://3easy.org)
-Vdub is free software,
+VDub is free software,
 and may be redistributed under the terms specified in the [license](LICENSE.md).
