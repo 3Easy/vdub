@@ -10,16 +10,16 @@ Inspired by Craig Sharkie’s [vw + vh === vnice](http://webdirections.org/respo
 
 Install VDub with [Bower](http://bower.io).
 
-- Install into the current directory…
+- Install into the project…
 
   ```bash
-  vdub install
+  bower install vdub
   ```
   
 - Import at the beginning of your stylesheet…
 
   ```scss
-  @import "vdub/vdub";
+  @import "../bower_components/vdub/scss/_vdub.scss";
   ```
   
 - Include the mixin…
