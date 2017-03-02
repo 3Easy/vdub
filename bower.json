@@ -1,0 +1,25 @@
+{
+  "name": "vdub",
+  "description": "Viewport Scalable Type",
+  "version": "0.1.0",
+  "authors": [
+    "3Easy <hello@3easy.org>"
+  ],
+  "main": "scss/_vdub.scss",
+  "license": "MIT",
+  "homepage": "https://github.com/3Easy/vdub",
+  "keywords": [
+    "css",
+    "mixins",
+    "sass",
+    "scss",
+    "type"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
