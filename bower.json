@@ -13,7 +13,7 @@
     "mixins",
     "sass",
     "scss",
-    "type"
+    "typography"
   ],
   "ignore": [
     "**/.*",
